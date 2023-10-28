@@ -4,9 +4,6 @@ theme: just-the-docs
 
 url: https://genesys-messenger-tester.makingchatbots.com
 
-aux_links:
-  GitHub: https://github.com/ovotech/genesys-web-messaging-tester
-
 footer_content: "Copyright &copy; 2023 Lucas Woodward"
 
 author: Lucas Woodward
@@ -14,3 +11,9 @@ social:
   name: Lucas Woodward
   links:
     - https://www.linkedin.com/in/lucas-woodward-the-dev
+    -
+nav_external_links:
+  - title: GitHub Project
+    url: https://github.com/ovotech/genesys-web-messaging-tester
+    hide_icon: false
+    opens_in_new_tab: true
