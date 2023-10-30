@@ -1,6 +1,7 @@
 title: Genesys Web Messenger Tester
 description: Free and open-source tool for automatically testing your Genesys Web Messenger Deployments
 theme: just-the-docs
+favicon_ico: "/assets/images/favicon.ico"
 
 url: https://genesys-messenger-tester.makingchatbots.com
 
