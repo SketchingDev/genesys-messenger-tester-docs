@@ -4,23 +4,25 @@ layout: home
 nav_order: 1
 ---
 
-<p class="text-center">
+<p align="center">
 Automatically test your Web Messenger Deployments
 </p>
 
-This tool automatically
-tests [Genesys' Web Messenger Deployments](https://help.mypurecloud.com/articles/web-messaging-overview/)
-against scenarios in a YAML file. This makes testing:
+Allows behaviour for Genesys Chatbots and Architect flows behind [Genesys' Web Messenger Deployments](https://help.mypurecloud.com/articles/web-messaging-overview/) to be automatically tested using:
+* [**Scripted Dialogue**](/writing-tests/scripted-dialogue/) - I say "X" and expect "Y" in response
+* [**Generative AI**](/writing-tests/ai/) - Converse with my chatbot and fail the test if it doesn't do "X"
 
-* **Fast** - spot problems with your flow sooner than manually testing
-* **Repeatable** - scenarios in test scripts are run exactly as defined. Any response that deviates is flagged
-* **Customer focused** - expected behaviour can be defined as test-script scenarios before development commences
+Why? Well it makes testing:
+
+* **Fast** - spot problems with your chatbots sooner than manually testing
+* **Repeatable** - scenarios in scripted dialogues are run exactly as defined. Any response that deviates is flagged
+* **Customer focused** - expected behaviour can be defined as scenarios before development commences
 * **Automatic** - being a CLI tool means it can be integrated into your CI/CD pipeline, or run on a scheduled basis e.g.
   to monitor production
 
 ![Demo of tool executing two scenarios that pass](./assets/images/cli/demo.gif?raw=true)
 
-The above test is using the test-script:
+The above test is using the dialogue script:
 
 > [examples/cli-scripted-tests/example-pass.yml](https://github.com/ovotech/genesys-web-messaging-tester/tree/implement-chatgpt/examples/cli-scripted-tests/example-pass.yml)
 

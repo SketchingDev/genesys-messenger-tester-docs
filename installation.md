@@ -6,7 +6,7 @@ nav_order: 2
 
 # Installation
 
-Prepare your system by installing [node](https://nodejs.org/en/download/)
+Prepare your system by installing [node](https://nodejs.org/en/download/).
 
 Install the CLI tool using [`npm`](https://www.npmjs.com/package/@ovotech/genesys-web-messaging-tester-cli):
 
